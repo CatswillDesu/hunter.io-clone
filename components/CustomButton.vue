@@ -29,8 +29,6 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-@import "../scss/colors.scss";
-
 .custom-button {
   padding: 7px 18px;
   border: none;

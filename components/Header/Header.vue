@@ -20,11 +20,11 @@
   </header>
 </template>
 <script>
-import Color from "../assets/colors";
+import Color from "../../assets/colors";
 
-import Logo from "./icons/Logo";
+import Logo from "../icons/Logo";
 import HeaderLink from "./HeaderLink";
-import CustomButton from "./CustomButton";
+import CustomButton from "../CustomButton";
 
 export default {
   data() {
@@ -41,8 +41,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "../scss/index.scss";
-@import "../scss/colors.scss";
+@import "../../scss/index.scss";
+@import "../../scss/colors.scss";
 
 .header {
   display: flex;

@@ -13,7 +13,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "../scss/colors.scss";
+@import "../../scss/colors.scss";
 .link {
   position: relative;
   font-size: 15px;
@@ -37,7 +37,7 @@ export default {
     display: inline-block;
     width: 9px;
     height: 9px;
-    background-image: url("../assets/right-arrow.svg");
+    background-image: url("../../assets/right-arrow.svg");
     transform: rotate(90deg);
   }
 }
