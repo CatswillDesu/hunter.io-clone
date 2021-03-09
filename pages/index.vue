@@ -1,5 +1,5 @@
 <template>
-  <Header />
+  <AppHeader />
 </template>
 
 <script>
@@ -7,7 +7,7 @@ import AppHeader from '../components/AppHeader'
 
 export default {
   components: {
-    'app-header': AppHeader,
+    AppHeader,
   },
 }
 </script>
